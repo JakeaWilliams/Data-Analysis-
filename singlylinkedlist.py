@@ -5,11 +5,11 @@
 
 
 class Node:
-    def __init_(self,data):
+    def __init__(self,data):
         self.data = data
         self.next = None
 class LinkedList:
-    def _init_(self):
+    def __init__(self):
         self.head = None
 
     def insert(self, newNode):
